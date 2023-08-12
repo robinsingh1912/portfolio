@@ -1,23 +1,46 @@
+import EXPERIENCES from './experiences.json';
+
+const DEFAULT_LOGO = 'https://static.licdn.com/sc/h/aajlclc14rr2scznz5qm2rj9u';
 export default function ExperienceSection() {
   return (
     <section id="experience" className="container mt-16">
-      <h2 className="font-semibold font-mono text-2xl pb-4">Experience</h2>
-      <div className="flex gap-4">
-        <div className="">
-          <a href="">
-            <img
-              src="https://media.licdn.com/dms/image/D4E0BAQFBLqu-aPvgtQ/company-logo_100_100/0/1688590236169?e=1700092800&v=beta&t=9dMk8VwuCUpxwrjrfhD91gaqpEJJ5GQ36Its-SKu3Jw"
-              alt="publicis sapient logo"
-              className="w-12 h-12"
-            />
-          </a>
-        </div>
-        <div className="flex flex-col">
-          <h3>Senior Experience Engineer</h3>
-          <small>Publicis Sapient · Full-time</small>
-          <small>Jan 2023 - Present</small>
-          <small>Gurugram, Haryana, India · Hybrid</small>
-        </div>
+      <h2 className="font-semibold font-mono text-2xl mb-4">Experience</h2>
+      <div className="divide-y divide-gray-800">
+        {EXPERIENCES.map((experience) => (
+          <div className="flex gap-4 py-4">
+            <a href={experience.companyUrl} target="_blank">
+              <img
+                src={experience.companyLogo || DEFAULT_LOGO}
+                alt={`${experience.companyName} logo`}
+                className="w-12 h-12 object-cover object-center"
+              />
+            </a>
+            <div className="flex flex-col flex-1">
+              <h3>{experience.title}</h3>
+              <small>
+                {experience.companyName} · {experience.employmentType}
+              </small>
+              <small>
+                {experience.startDate} - {experience.endDate || 'Present'}
+              </small>
+              <small>
+                {experience.location} · {experience.locationType}
+              </small>
+              {experience.description && (
+                <p className="text-xs [text-wrap:balance] mt-2">
+                  {experience.description}
+                </p>
+              )}
+              <div className="flex gap-2 mt-2 flex-wrap">
+                {experience.skills?.map((skill) => (
+                  <div className="inline-flex justify-center px-2 py-1 border border-gray-800 hover:border-white shadow-sm font-medium rounded-md text-white text-xs font-mono bg-black focus:outline-none focus:ring-0 transition-all">
+                    {skill}
+                  </div>
+                ))}
+              </div>
+            </div>
+          </div>
+        ))}
       </div>
     </section>
   );

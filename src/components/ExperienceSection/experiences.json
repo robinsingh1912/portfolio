@@ -1,0 +1,81 @@
+[
+  {
+    "companyLogo": "https://media.licdn.com/dms/image/D4E0BAQFBLqu-aPvgtQ/company-logo_200_200/0/1688590236169?e=1700092800&v=beta&t=zPZblkNzNY8ESANlSLtDNsCMj2L0PPE11hv-pJh4mGE",
+    "companyUrl": "http://publicissapient.com/",
+    "title": "Senior Experience Engineer",
+    "companyName": "Publicis Sapient",
+    "employmentType": "Full-time",
+    "startDate": "Jan 2023",
+    "location": "Gurugram, Haryana, India",
+    "locationType": "Hybrid",
+    "description": "Working for client: Sephora",
+    "skills": [
+      "Microsoft Azure",
+      "Apollo GraphQL",
+      "Jest",
+      "Redux.js",
+      "Next.js"
+    ]
+  },
+  {
+    "companyLogo": "https://media.licdn.com/dms/image/D4D0BAQGoS29JpNNAdw/company-logo_200_200/0/1691775811878?e=1700092800&v=beta&t=3VQ7ZWO0F2J8R6Ud7FA0fbyfs-c53UlnxTO1JeGgUmk",
+    "companyUrl": "https://www.rigelnetworks.com",
+    "title": "Software Developer",
+    "companyName": "Rigel Networks",
+    "employmentType": "Full-time",
+    "startDate": "Apr 2022",
+    "endDate": "Jan 2023",
+    "location": "Vadodara, Gujarat, India",
+    "locationType": "Remote",
+    "description": "app.studytogether.com is a web app that connect students to collaborate on their studies. It enables students to form study group, share notes and resources, and communicate in real-time. Success is measured by user engagement and satisfaction, including high user activity, positive user feedback and increased number of study groups formed on the platform.",
+    "skills": [
+      "Google Cloud Platform (GCP)",
+      "WebSocket",
+      "TypeScript",
+      "React.js"
+    ]
+  },
+  {
+    "companyLogo": "https://media.licdn.com/dms/image/C4E0BAQFn3AJSWkb6yw/company-logo_100_100/0/1610435066482?e=1700092800&v=beta&t=P99rbUDbHTUl6skYj3JquKpik6kJtpnV0riH-WC0V3E",
+    "companyUrl": "http://eleqtrasoft.in/",
+    "title": "Software Engineer",
+    "companyName": "Eleqtrasoft Education",
+    "employmentType": "Full-time",
+    "startDate": "Feb 2020",
+    "endDate": "Mar 2022",
+    "location": "New Delhi, Delhi, India",
+    "locationType": "Hybrid",
+    "description": "Skill a Bit (skillabit.com) is an internal company project that provides interactive, expert-curated courses with animations. It offers the convenience of self-paced learning and multiple language options, providing job-ready skills and setting itself apart from other online education platforms.",
+    "skills": ["Github Actions", "React Hooks", "Web Applications"]
+  },
+  {
+    "companyUrl": "https://www.rigelnetworks.com",
+    "title": "Full Stack (MERN) developer",
+    "companyName": "Freelance",
+    "employmentType": "Full-time",
+    "startDate": "Aug 2018",
+    "endDate": "Jan 2020",
+    "location": "New Delhi, Delhi, India",
+    "locationType": "Remote",
+    "description": "",
+    "skills": [
+      "Mongoose ORM",
+      "Node.js",
+      "RESTful WebServices",
+      "Responsive Web Design"
+    ]
+  },
+  {
+    "companyLogo": "https://media.licdn.com/dms/image/C4E0BAQEhu6BlA60Hbw/company-logo_200_200/0/1616867853747?e=1700092800&v=beta&t=1Db95jYWx5J-DgG8B_QksXKCp2Sqk_IkG4UKRxLVD60",
+    "companyUrl": "https://www.rigelnetworks.com",
+    "title": "Creative Designer",
+    "companyName": "ECell IIITD",
+    "employmentType": "Apprenticeship",
+    "startDate": "Aug 2018",
+    "endDate": "Jan 2020",
+    "location": "New Delhi, Delhi, India",
+    "locationType": "On-site",
+    "description": "Creating visual concepts to communicate our ideas through social media sites and work on different activities such as posters, website layout and advertising.",
+    "skills": ["Photoshop", "Canva"]
+  }
+]
