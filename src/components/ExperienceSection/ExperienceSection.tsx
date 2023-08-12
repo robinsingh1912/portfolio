@@ -1,20 +1,24 @@
 export default function ExperienceSection() {
   return (
     <section id="experience" className="container mt-16">
-      <h2 className="font-semibold font-mono text-2xl">Experience</h2>
-      <p>
-        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ad nesciunt
-        accusamus est fugiat facere, pariatur asperiores labore, veritatis alias
-        voluptatum perspiciatis itaque dicta libero quae, nam ipsa inventore
-        quis non sint ex ullam laudantium in deserunt dignissimos. Rem quis,
-        maiores hic fuga minus optio quidem beatae numquam aspernatur
-        perspiciatis, mollitia, laborum iusto vitae pariatur necessitatibus?
-        Cumque, quam quidem, et dolore ipsa sapiente odit eum consequatur
-        tenetur aliquam, esse nam ipsum sint maxime voluptatibus maiores
-        perspiciatis facilis? Ratione amet deleniti eligendi aliquam tempore?
-        Cumque esse facilis, quaerat sunt ullam eos nostrum delectus quia
-        aliquam a laudantium repellendus sint provident placeat laboriosam.
-      </p>
+      <h2 className="font-semibold font-mono text-2xl pb-4">Experience</h2>
+      <div className="flex gap-4">
+        <div className="">
+          <a href="">
+            <img
+              src="https://media.licdn.com/dms/image/D4E0BAQFBLqu-aPvgtQ/company-logo_100_100/0/1688590236169?e=1700092800&v=beta&t=9dMk8VwuCUpxwrjrfhD91gaqpEJJ5GQ36Its-SKu3Jw"
+              alt="publicis sapient logo"
+              className="w-12 h-12"
+            />
+          </a>
+        </div>
+        <div className="flex flex-col">
+          <h3>Senior Experience Engineer</h3>
+          <small>Publicis Sapient · Full-time</small>
+          <small>Jan 2023 - Present</small>
+          <small>Gurugram, Haryana, India · Hybrid</small>
+        </div>
+      </div>
     </section>
   );
 }
