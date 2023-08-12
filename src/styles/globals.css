@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    @apply font-semibold font-mono;
+  }
+  h2 {
+    @apply text-2xl;
+  }
+  p {
+    @apply font-mono leading-6 text-sm tracking-wider;
+  }
+  ul {
+    @apply list-inside list-[square];
+  }
+  li {
+    @apply font-mono leading-6 text-xs tracking-wider;
+  }
+}
+
+@layer components {
+  .container {
+    @apply max-w-5xl mx-auto px-4 sm:px-6 lg:px-8;
+  }
+}
