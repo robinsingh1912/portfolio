@@ -1,0 +1,37 @@
+[
+  {
+    "title": "Programming Languages",
+    "technologies": ["HTML", "CSS", "SCSS", "JavaScript (ES6+)", "TypeScript"]
+  },
+  {
+    "title": "Libraries & Frameworks",
+    "technologies": [
+      "React",
+      "Next.js",
+      "Tailwind",
+      "Redux / RTK",
+      "React Query",
+      "Node.js",
+      "Express.js",
+      "GraphQL & RESTful APIs",
+      "Jest & RTL",
+      "React Native"
+    ]
+  },
+  {
+    "title": "Tools & Platforms",
+    "technologies": [
+      "Dev tools",
+      "Figma",
+      "Storybook",
+      "Git / GitHub",
+      "Webpack",
+      "GitHub Actions | CI/CD",
+      "Docker",
+      "Netlify",
+      "Vercel",
+      "Azure",
+      "Postman"
+    ]
+  }
+]

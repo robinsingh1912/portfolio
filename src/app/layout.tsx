@@ -4,7 +4,6 @@ import '@/styles/globals.css';
 import classNames from '@/utils/classNames';
 import type { Metadata } from 'next';
 import { Inter } from 'next/font/google';
-import { BsLinkedin } from 'react-icons/bs';
 
 const inter = Inter({ subsets: ['latin'] });
 
@@ -20,11 +19,11 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en">
+    <html lang="en" className="scroll-smooth">
       <body
         className={classNames(
           inter.className,
-          'bg-black text-white scroll-smooth scroll-p-10'
+          'bg-black text-white scroll-p-10'
         )}
       >
         <Header />
