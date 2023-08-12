@@ -7,9 +7,8 @@ name: Deploy Next.js site to Pages
 on:
   # Runs on pushes tag Sequence of patterns matched against refs/tags
 
-  push:
-    tags:        
-      - v1.*
+  release:
+    types: [published]
 
 
   # Allows you to run this workflow manually from the Actions tab
