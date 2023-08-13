@@ -71,11 +71,23 @@
     "title": "Creative Designer",
     "companyName": "ECell IIITD",
     "employmentType": "Apprenticeship",
-    "startDate": "Aug 2018",
-    "endDate": "Jan 2020",
+    "startDate": "Feb 2017",
+    "endDate": "Apr 2018",
     "location": "New Delhi, Delhi, India",
     "locationType": "On-site",
     "description": "Creating visual concepts to communicate our ideas through social media sites and work on different activities such as posters, website layout and advertising.",
     "skills": ["Photoshop", "Canva"]
+  },
+  {
+    "companyLogo": "https://media.licdn.com/dms/image/C510BAQGQ8eQ0sP4pEQ/company-logo_200_200/0/1567580677296?e=1700092800&v=beta&t=utjelfMXCNfihDK7yoowD-veskiLplUxhxSSBwwC5l8",
+    "companyUrl": "https://campk12.com",
+    "title": "Graphic Designer",
+    "companyName": "Camp K-12",
+    "employmentType": "Internship",
+    "startDate": "May 2017",
+    "endDate": "Aug 2017",
+    "location": "Gurgaon, India",
+    "locationType": "On-site",
+    "skills": ["Photoshop", "Illustrator"]
   }
 ]
