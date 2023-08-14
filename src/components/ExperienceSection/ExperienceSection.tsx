@@ -44,7 +44,7 @@ export default function ExperienceSection() {
         ))}
       </div>
       <a
-        href='/resume.pdf'
+        href='./resume.pdf'
         className='font-mono font-semibold text-sm inline-flex items-center gap-1 hover:gap-3 hover:underline underline-offset-4 transition-all'
       >
         View Full Resume <BsArrowRight />
