@@ -11,7 +11,7 @@ Feel free to fork this repository if you'd like to use it as a starting point fo
 2. **Edit README**: In your forked repository, update the README to reflect your information and projects. Make sure to replace my details with yours in the content and URLs.
 
 3. **Give Credit**: In the README, you can add a section similar to the following to give credit:
-   
+
 4. **Deploy Your Site**: Follow the instructions in the README to deploy your customized portfolio website on GitHub Pages or the hosting platform of your choice.
 
 ## Getting Started
@@ -27,26 +27,32 @@ Before you begin, ensure you have the following tools and software installed:
 ### Installation
 
 1. **Clone the Repository**: Clone this repository to your local machine using the following command:
+
    ```sh
    git clone https://github.com/robinsingh1912/portfolio.git
    ```
+
 2. Navigate to the Project Directory: Change to the project directory:
+
    ```sh
    cd portfolio
    ```
 
-4. Install Dependencies: Install the project dependencies using npm:
+3. Install Dependencies: Install the project dependencies using npm:
+
    ```sh
    npm install
    ```
+
 ### Running the Development Server
+
 After installing the dependencies, you can start the development server to preview your changes:
+
 ```sh
 npm run dev
 ```
 
-Open your web browser and navigate to http://localhost:3000 to see your portfolio website in action!
-
+Open your web browser and navigate to <http://localhost:3000> to see your portfolio website in action!
 
 ## Built With
 
@@ -85,9 +91,6 @@ This portfolio website is configured to be automatically deployed to GitHub Page
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-___
+---
 
 > Feel free to modify and customize this README to suit your needs and style.
-
-
-
