@@ -13,7 +13,7 @@ export function Footer() {
             MongoDB Starter
           </a>{' '}
           and coded with ❤️ in 🇮🇳. Built with Next.js and Tailwind CSS, deployed
-          with Vercel.
+          with Github pages via Actions.
         </p>
       </div>
     </footer>
