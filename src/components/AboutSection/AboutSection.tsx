@@ -1,4 +1,4 @@
-import Data from './data.json';
+import SKILLS from '@/__data/skills.json';
 
 export default function AboutSection() {
   return (
@@ -19,7 +19,7 @@ export default function AboutSection() {
         </p>
         <p>Here are a few technologies I’ve been working with recently:</p>
         <div className='flex flex-wrap gap-10'>
-          {Data.map((technologies) => (
+          {SKILLS.map((technologies) => (
             <ul key={technologies.title}>
               <p className='underline underline-offset-4'>
                 {technologies.title}

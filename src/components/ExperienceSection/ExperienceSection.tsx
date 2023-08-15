@@ -1,7 +1,7 @@
 'use client';
-import { BsArrowRight, BsChevronRight } from 'react-icons/bs';
-import EXPERIENCES from './experiences.json';
 import { useState } from 'react';
+import { BsArrowRight, BsChevronRight } from 'react-icons/bs';
+import EXPERIENCES from '@/__data/experiences.json';
 import classNames from '@/utils/classNames';
 import { ExperienceListItem } from './ExperienceListItem';
 
@@ -24,21 +24,23 @@ export default function ExperienceSection() {
           )
         )}
       </ul>
-      <button
-        className='w-full bg-gray-900 group hover:bg-gray-800 py-2 px-4 border-gray-800 hover:border-gray-300 transition-all border font-mono text-sm rounded-md inline-flex items-center justify-center gap-2'
-        onClick={() => setCollapsed(!collapsed)}
-      >
-        {collapsed
-          ? `Show all ${EXPERIENCES.length} `
-          : `Show top ${MAX_EXPERIENCE} `}
-        experiences
-        <BsChevronRight
-          className={classNames('transition-all', {
-            'group-hover:rotate-90': collapsed,
-            'group-hover:-rotate-90': !collapsed,
-          })}
-        />
-      </button>
+      {OTHER_EXPERIENCES.length > 0 && (
+        <button
+          className='w-full bg-gray-900 group hover:bg-gray-800 py-2 px-4 border-gray-800 hover:border-gray-300 transition-all border font-mono text-sm rounded-md inline-flex items-center justify-center gap-2'
+          onClick={() => setCollapsed(!collapsed)}
+        >
+          {collapsed
+            ? `Show all ${EXPERIENCES.length} `
+            : `Show top ${MAX_EXPERIENCE} `}
+          experiences
+          <BsChevronRight
+            className={classNames('transition-all', {
+              'group-hover:rotate-90': collapsed,
+              'group-hover:-rotate-90': !collapsed,
+            })}
+          />
+        </button>
+      )}
       <a
         href='./resume.pdf'
         className='font-mono font-semibold text-sm inline-flex items-center gap-1 hover:gap-3 hover:underline underline-offset-4 transition-all mt-4'
