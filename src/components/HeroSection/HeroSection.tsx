@@ -7,13 +7,16 @@ export default function HeroSection() {
   return (
     <section>
       <div
-        className='h-48 w-full lg:h-64 
-          bg-gradient-to-r from-indigo-200 via-red-200 to-blue-100'
+        className='h-48 w-full lg:h-64'
+        style={{
+          backgroundImage: 'radial-gradient(#ffffff 0.5px, #000000 0.5px)',
+          backgroundSize: '10px 10px',
+        }}
       ></div>
       <div
         className={`container -mt-12 sm:-mt-16 sm:flex sm:items-end sm:space-x-5`}
       >
-        <div className='relative group h-24 w-24 rounded-full overflow-hidden sm:h-32 sm:w-32 ring-4 ring-black ring-offset-4'>
+        <div className='relative group h-24 w-24 rounded-md overflow-hidden sm:h-32 sm:w-32 ring-4 ring-black ring-offset-4'>
           <img
             src={PROFILE_IMAGE_URL}
             alt='robin singh'
