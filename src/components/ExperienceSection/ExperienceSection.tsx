@@ -8,7 +8,7 @@ export default function ExperienceSection() {
       <h2 className='font-semibold font-mono text-2xl mb-4'>Experience</h2>
       <div className='divide-y divide-gray-800'>
         {EXPERIENCES.map((experience) => (
-          <div className='flex gap-4 py-4'>
+          <div className='flex gap-4 py-4' key={experience.companyName}>
             <a href={experience.companyUrl} target='_blank'>
               <img
                 src={experience.companyLogo || DEFAULT_LOGO}
@@ -34,7 +34,10 @@ export default function ExperienceSection() {
               )}
               <div className='flex gap-2 mt-2 flex-wrap'>
                 {experience.skills?.map((skill) => (
-                  <div className='inline-flex justify-center px-2 py-1 border border-gray-800 hover:border-white shadow-sm font-medium rounded-md text-white text-xs font-mono bg-black focus:outline-none focus:ring-0 transition-all'>
+                  <div
+                    className='inline-flex justify-center px-2 py-1 border border-gray-800 hover:border-white shadow-sm font-medium rounded-md text-white text-xs font-mono bg-black focus:outline-none focus:ring-0 transition-all'
+                    key={skill}
+                  >
                     {skill}
                   </div>
                 ))}
