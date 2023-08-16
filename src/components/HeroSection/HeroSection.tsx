@@ -1,7 +1,6 @@
 import { BsGithub, BsPatchCheckFill } from 'react-icons/bs';
 
 const PROFILE_IMAGE_URL = '/avatar.jpeg';
-// 'https://media.licdn.com/dms/image/C5103AQHKW4CYTw4qBw/profile-displayphoto-shrink_400_400/0/1517339505489?e=1694649600&v=beta&t=u037OaLDs7jgPdIwUA69DFyFcSmBAqKDbnWVNO3LIjc';
 
 export default function HeroSection() {
   return (
