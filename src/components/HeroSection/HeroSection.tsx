@@ -1,7 +1,6 @@
 import { BsGithub, BsPatchCheckFill } from 'react-icons/bs';
 
-const PROFILE_IMAGE_URL =
-  'https://media.licdn.com/dms/image/C5103AQHKW4CYTw4qBw/profile-displayphoto-shrink_400_400/0/1517339505489?e=1694649600&v=beta&t=u037OaLDs7jgPdIwUA69DFyFcSmBAqKDbnWVNO3LIjc';
+const PROFILE_IMAGE_URL = '/avatar.jpeg';
 
 export default function HeroSection() {
   return (
@@ -16,7 +15,7 @@ export default function HeroSection() {
       <div
         className={`container -mt-12 sm:-mt-16 sm:flex sm:items-end sm:space-x-5`}
       >
-        <div className='relative group h-24 w-24 rounded-md overflow-hidden sm:h-32 sm:w-32 ring-4 ring-black ring-offset-4'>
+        <div className='relative group h-24 w-24 rounded-md overflow-hidden sm:h-32 sm:w-32 ring-2 ring-white ring-offset-4 ring-offset-black'>
           <img
             src={PROFILE_IMAGE_URL}
             alt='robin singh'
