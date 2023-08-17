@@ -1,4 +1,5 @@
 import { BsGithub, BsPatchCheckFill } from 'react-icons/bs';
+import Button from '@/components/Button/Button';
 
 const PROFILE_IMAGE_URL = '/avatar.jpeg';
 
@@ -6,9 +7,8 @@ export default function HeroSection() {
   return (
     <section>
       <div
-        className='h-48 w-full lg:h-64'
+        className='h-48 w-full lg:h-64 bg-gradient-radial dark:bg-gradient-radial-dark'
         style={{
-          backgroundImage: 'radial-gradient(#ffffff 0.5px, #000000 0.5px)',
           backgroundSize: '10px 10px',
         }}
       ></div>
@@ -28,31 +28,8 @@ export default function HeroSection() {
             <h1 className='text-3xl font-semibold truncate'>ROBIN SINGH</h1>
             <BsPatchCheckFill className='w-6= h-6 text-[#0070F3]' />
           </div>
-          <div className='flex gap-4 mt-6 '>
-            {/* <a
-                  href={`https://github.com/`}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="inline-flex items-center justify-center px-4 py-2 border border-gray-800 hover:border-white shadow-sm text-sm font-medium rounded-md text-white font-mono bg-black focus:outline-none focus:ring-0 transition-all"
-                >
-                  <BsLinkedin className="h-5 w-5 text-white" />
-                </a> */}
-            <div className='mt-6 flex flex-col justify-stretch space-y-3 sm:flex-row sm:space-y-0 sm:space-x-4'>
-              <div className='relative group'>
-                <div className='absolute -inset-0.5 bg-gradient-to-r from-pink-600 to-purple-600 rounded-lg blur opacity-80 group-hover:opacity-100 transition-all duration-300 group-hover:duration-1000 animate-pulse'></div>
-                <a
-                  href='https://github.com/robinsingh1912'
-                  target='_blank'
-                  rel='noopener noreferrer'
-                  className='relative px-6 py-3 bg-black leading-none flex items-center divide-x divide-gray-600  text-sm font-medium rounded-md font-mono focus:outline-none focus:ring-0 transition-all justify-center'
-                >
-                  <BsGithub className='mr-3 h-5 w-5' />
-                  <span className='text-gray-100 pl-3 group-hover:text-pink-600 transition-colors'>
-                    View GitHub Profile
-                  </span>
-                </a>
-              </div>
-            </div>
+          <div className='mt-6'>
+            <Button Icon={BsGithub}>View GitHub Profile</Button>
           </div>
         </div>
       </div>

@@ -1,17 +1,14 @@
-import { BsMoonStars, BsTranslate } from 'react-icons/bs';
+import { ThemeSwitcher } from '@/components/ThemeSwitcher/ThemeSwitcher';
+import { LanguageSwitcher } from '@/components/LanguageSwitcher/LanguageSwitcher';
 
 export function Header() {
   return (
     <header>
-      <div className="flex justify-between container h-16 items-center">
-        <div className=""></div>
-        <div className="flex gap-4">
-          <button className="inline-flex justify-center p-2 border border-gray-800 hover:border-white shadow-sm text-sm font-medium rounded-md  focus:outline-none focus:ring-0 transition-all">
-            <BsMoonStars />
-          </button>
-          <button>
-            <BsTranslate />
-          </button>
+      <div className='flex justify-between container h-16 items-center'>
+        <div className=''></div>
+        <div className='flex gap-2 relative'>
+          <ThemeSwitcher />
+          <LanguageSwitcher />
         </div>
       </div>
     </header>

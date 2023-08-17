@@ -26,7 +26,7 @@ export default function ExperienceSection() {
       </ul>
       {OTHER_EXPERIENCES.length > 0 && (
         <button
-          className='w-full bg-gray-900 group hover:bg-gray-800 py-2 px-4 border-gray-800 hover:border-gray-300 transition-all border font-mono text-sm rounded-md inline-flex items-center justify-center gap-2'
+          className='w-full bg-gray-100 hover:bg-gray-300 dark:bg-gray-900 group dark:hover:bg-gray-800 py-2 px-4 border-gray-500 hover:border-gray-800 hover:dark:border-gray-300 transition-all border font-mono text-sm rounded-md inline-flex items-center justify-center gap-2'
           onClick={() => setCollapsed(!collapsed)}
         >
           {collapsed

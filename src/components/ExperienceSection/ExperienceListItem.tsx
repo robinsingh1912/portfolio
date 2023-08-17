@@ -45,7 +45,7 @@ export function ExperienceListItem({ experience }: ExperienceListItemProps) {
           <div className='flex gap-2 mt-2 flex-wrap'>
             {experience.skills?.map((skill: string) => (
               <div
-                className='inline-flex justify-center px-2 py-1 border border-gray-800 hover:border-white font-medium rounded-md text-white text-xs font-mono bg-black transition-all'
+                className='inline-flex justify-center px-2 py-1 border border-slate-300 dark:border-slate-800 font-medium rounded-md  text-xs font-mono transition-all'
                 key={skill}
               >
                 {skill}

@@ -1,5 +1,6 @@
 import { Footer } from '@/components/Footer';
 import { Header } from '@/components/Header';
+import { ThemeProvider } from '@/components/theme-provider';
 import '@/styles/globals.css';
 import classNames from '@/utils/classNames';
 import type { Metadata } from 'next';
@@ -19,16 +20,18 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en" className="scroll-smooth">
+    <html lang='en' className='scroll-smooth'>
       <body
         className={classNames(
           inter.className,
-          'bg-black text-white scroll-p-10'
+          'dark:bg-black dark:text-white scroll-p-10'
         )}
       >
-        <Header />
-        <main className="min-h-screen pb-20">{children}</main>
-        <Footer />
+        <ThemeProvider attribute='class' defaultTheme='dark' enableSystem>
+          <Header />
+          <main className='min-h-screen pb-20'>{children}</main>
+          <Footer />
+        </ThemeProvider>
       </body>
     </html>
   );
