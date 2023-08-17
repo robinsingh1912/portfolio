@@ -30,7 +30,9 @@ export default function ContactSection() {
         </ul>
       </div>
       <div className='mt-6 flex flex-col justify-stretch space-y-3 sm:flex-row sm:space-y-0 sm:space-x-4'>
-        <Button Icon={BsFillSendFill}>Contact Me</Button>
+        <Button href='mailto:robinsingh1912@gmail.com' Icon={BsFillSendFill}>
+          Contact Me
+        </Button>
       </div>
     </section>
   );

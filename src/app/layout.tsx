@@ -20,12 +20,9 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang='en' className='scroll-smooth'>
+    <html lang='en' className='scroll-smooth scroll-p-24 sm:scroll-p-20'>
       <body
-        className={classNames(
-          inter.className,
-          'dark:bg-black dark:text-white scroll-p-10'
-        )}
+        className={classNames(inter.className, 'dark:bg-black dark:text-white')}
       >
         <ThemeProvider attribute='class' defaultTheme='dark' enableSystem>
           <Header />
