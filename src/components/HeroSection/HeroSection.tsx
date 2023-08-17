@@ -29,7 +29,9 @@ export default function HeroSection() {
             <BsPatchCheckFill className='w-6= h-6 text-[#0070F3]' />
           </div>
           <div className='mt-6'>
-            <Button Icon={BsGithub}>View GitHub Profile</Button>
+            <Button href='https://github.com/robinsingh1912' Icon={BsGithub}>
+              View GitHub Profile
+            </Button>
           </div>
         </div>
       </div>
