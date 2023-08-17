@@ -1,4 +1,5 @@
 'use client';
+import classNames from '@/utils/classNames';
 import { useState, useEffect } from 'react';
 import { BsChevronDown, BsTranslate } from 'react-icons/bs';
 
@@ -22,10 +23,13 @@ export const LanguageSwitcher = () => {
         <BsChevronDown />
       </button>
       {open && (
-        <ul className='absolute top-full mt-3 right-0 min-w-[9rem] list-none bg-white z-50 border rounded-md divide-y'>
+        <ul className='absolute top-full mt-3 right-0 min-w-[9rem] list-none bg-white dark:bg-gray-950 z-50 border rounded-md divide-y overflow-hidden'>
           <li>
             <button
-              className='px-4 py-2 w-full text-start'
+              className={classNames(
+                'px-4 py-2 w-full text-start hover:bg-gray-100 dark:hover:bg-gray-900',
+                { 'bg-gray-200 dark:bg-gray-800': selectedLang === 'english' }
+              )}
               onClick={() => updateLang('english')}
             >
               English
@@ -33,7 +37,10 @@ export const LanguageSwitcher = () => {
           </li>
           <li>
             <button
-              className='px-4 py-2 w-full text-start'
+              className={classNames(
+                'px-4 py-2 w-full text-start hover:bg-gray-100 dark:hover:bg-gray-900',
+                { 'bg-gray-200 dark:bg-gray-800': selectedLang === 'hindi' }
+              )}
               onClick={() => updateLang('hindi')}
             >
               Hindi
