@@ -7,8 +7,8 @@ export default function AboutSection() {
       <article className='max-w-2xl mt-3 gap-4 grid'>
         <p>
           Hi there! <span className='text-2xl'>👋</span>, I’m{' '}
-          <span className='bg-pink-600 p-1'>Robin Singh</span>! from New Delhi,
-          India, a passionate self-taught{' '}
+          <span className='bg-pink-600 text-white p-1'>Robin Singh</span>! from
+          New Delhi, India, a passionate self-taught{' '}
           <span className='underline underline-offset-2'>
             Full-Stack Engineer
           </span>{' '}
