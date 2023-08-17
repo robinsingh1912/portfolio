@@ -1,7 +1,7 @@
 import { BsGithub, BsPatchCheckFill } from 'react-icons/bs';
 import Button from '@/components/Button/Button';
 
-const PROFILE_IMAGE_URL = '/avatar.jpeg';
+const PROFILE_IMAGE_URL = './avatar.jpeg';
 
 export default function HeroSection() {
   return (
