@@ -20,10 +20,10 @@ export default function Navbar() {
               Experience
             </a>
             <a
-              href='#projects'
+              href='#education'
               className='hover:border-pink-600 dark:hover:text-white hover:text-black active:border-pink-600 border-transparent text-gray-700 dark:text-gray-400 whitespace-nowrap py-5 px-1 border-b-2 font-medium text-sm font-mono'
             >
-              Projects
+              Education
             </a>
             <a
               href='#contact'
