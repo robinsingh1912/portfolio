@@ -8,7 +8,7 @@ export function Header() {
         <div className=''></div>
         <div className='flex gap-2 relative'>
           <ThemeSwitcher />
-          <LanguageSwitcher />
+          {/* <LanguageSwitcher /> */}
         </div>
       </div>
     </header>
