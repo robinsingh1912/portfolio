@@ -23,7 +23,7 @@ export function ExperienceListItem({ experience }: ExperienceListItemProps) {
           <img
             src={experience.companyLogo || DEFAULT_LOGO}
             alt={`${experience.companyName} logo`}
-            className='w-12 h-12 object-cover object-center'
+            className='w-12 h-12 object-cover object-center rounded'
           />
         </a>
         <div className='flex flex-col flex-1'>
