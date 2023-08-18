@@ -52,7 +52,7 @@ function EducationListItem({ education }: Props) {
             </h3>
           </a>
           <small>
-            {education.degree} - {education.field}
+            {education.degree}, {education.field}
           </small>
           <small>
             {education.startYear} - {education.endYear || 'Present'}
