@@ -19,7 +19,7 @@ export default function ContactSection() {
             LinkedIn:{' '}
             <a
               aria-label='Linkedin'
-              className='transition hover:text-neutral-200'
+              className='transition dark:hover:text-neutral-300 hover:text-neutral-700'
               href='https://www.linkedin.com/in/robinsingh1912/'
             >
               @robinsingh1912
