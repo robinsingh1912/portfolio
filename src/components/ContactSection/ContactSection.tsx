@@ -13,16 +13,14 @@ export default function ContactSection() {
         experiences together!
       </p>
       <div className='sm:border-l sm:border-transparent'>
-        <h3 className='font-display text-base font-semibold text-white'>
-          Follow me on:
-        </h3>
-        <ul role='list' className='flex gap-x-10 text-white mt-4 list-none'>
+        <h3 className='font-display text-base font-semibold'>Follow me on:</h3>
+        <ul role='list' className='flex gap-x-10 mt-4 list-disc'>
           <li className='border-gray-800'>
             LinkedIn:{' '}
             <a
               aria-label='Linkedin'
               className='transition hover:text-neutral-200'
-              href=''
+              href='https://www.linkedin.com/in/robinsingh1912/'
             >
               @robinsingh1912
             </a>
